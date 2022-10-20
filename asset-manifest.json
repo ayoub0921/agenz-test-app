@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/agenz-test-app/static/css/main.4dafa7cc.css",
+    "main.js": "/agenz-test-app/static/js/main.0b5bb9e9.js",
+    "static/media/maroc_prev_ui.png": "/agenz-test-app/static/media/maroc_prev_ui.453c843144b3b563d88f.png",
+    "static/media/agenzimg_prev_ui.png": "/agenz-test-app/static/media/agenzimg_prev_ui.997ffeeed4e23bbdf72c.png",
+    "index.html": "/agenz-test-app/index.html",
+    "main.4dafa7cc.css.map": "/agenz-test-app/static/css/main.4dafa7cc.css.map",
+    "main.0b5bb9e9.js.map": "/agenz-test-app/static/js/main.0b5bb9e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dafa7cc.css",
+    "static/js/main.0b5bb9e9.js"
+  ]
+}
