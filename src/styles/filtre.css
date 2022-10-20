@@ -1,0 +1,116 @@
+:root{
+    --blue-color:#460af0;
+}
+
+.filtre{
+    padding: 15px;
+}
+
+
+
+.serch_input{
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    position: relative;
+    left: -86px;
+}
+
+.serch_input:focus{
+    border: 1px solid var(--blue-color);
+}
+
+.serch_input::placeholder{
+    font-size: 14px;
+}
+
+.serch_icon{
+    right: 192px;
+    bottom: -5px;
+    font-size: 20px;
+    padding: 10px;
+    color: var(--blue-color);
+    cursor: pointer;
+}
+
+.type_filtre{
+    margin: auto 0;
+    position: relative;
+    left: -201px;
+}
+
+.type_filtre li{
+    border: 1px solid #ddd;
+    margin-left: 8px;
+    width: 100px;
+    position: relative;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--blue-color);
+    border-radius: 2px;
+    transition: all .3s;
+
+}
+
+.type_filtre li:hover{
+    border: 1px solid var(--blue-color);
+    background-color: var(--blue-color);
+    color: #fff;
+
+}
+
+.type_filtre li:first-child{
+    border: 1px solid var(--blue-color);
+}
+
+.type_filtre li:first-child::after{
+    content: '';
+    background-color: #F00;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 8px;
+    bottom: 7px;
+    height: 8px;
+    display: block;
+
+}
+
+.type_filtre li.active{
+    background-color: var(--blue-color);
+    color: #fff;
+}
+
+@media(max-width:667px){
+
+    .filtre{
+        margin: auto;
+        width: 100%;
+    }
+
+    .serch_input,.type_filtre{
+        margin: auto;
+        position: static;
+        width: 100%;
+    }
+
+
+    .serch_input::placeholder{
+        font-size: 10px;
+    }
+
+
+
+    .type_filtre li{
+       margin:5px 5px;
+       text-align: center;
+       display: block;
+    }
+
+    .serch_icon{
+        right: 6px;
+    }
+
+    
+}
